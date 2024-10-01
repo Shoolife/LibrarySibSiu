@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/settings"
+        android:textColor="@color/textColor"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backArrow"
+        app:layout_constraintStart_toEndOf="@+id/backArrow"
+        app:layout_constraintTop_toTopOf="@+id/backArrow" />
+
+    <TextView
+        android:id="@+id/teExitAndDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/logoutAndDeletion"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backArrow" />
+
+    <TextView
+        android:id="@+id/tvLogOutProfileDevice"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="17dp"
+        android:text="@string/logOutProfileDevice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#787878"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/arrow1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teExitAndDelete" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="#E5E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogOutProfileDevice" />
+
+    <TextView
+        android:id="@+id/tvSignOutAllDevices"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="17dp"
+        android:text="@string/signOutAllDevices"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#787878"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/arrow1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogOutProfileDevice" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="#E5E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignOutAllDevices" />
+
+    <TextView
+        android:id="@+id/tvDeleteProfile"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@drawable/ripple_effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:paddingEnd="17dp"
+        android:text="@string/deleteProfile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#787878"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/arrow1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignOutAllDevices" />
+
+    <ImageView
+        android:id="@+id/logoSibsiu"
+        android:layout_width="265dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toTopOf="@+id/assembly"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_sibsiu" />
+
+    <TextView
+        android:id="@+id/assembly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/textColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/logoSibsiu"
+        app:layout_constraintStart_toStartOf="@+id/logoSibsiu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

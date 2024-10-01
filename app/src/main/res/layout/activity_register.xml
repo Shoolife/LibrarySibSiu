@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        tools:context=".RegisterActivity">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="263dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:textColorHint="@color/textColorHint"
+            app:boxStrokeColor="@color/colorInputLayout"
+            app:cursorColor="@color/colorInputLayout"
+            app:hintTextColor="@color/colorInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/hint_name"
+                android:paddingTop="11dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/textColor"
+                android:textColorHighlight="@color/textColorHightlight"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="263dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:textColorHint="@color/textColorHint"
+            app:boxStrokeColor="@color/colorInputLayout"
+            app:cursorColor="@color/colorInputLayout"
+            app:hintTextColor="@color/colorInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dan_title">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/hint_second_name"
+                android:paddingTop="11dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/textColor"
+                android:textColorHighlight="@color/textColorHightlight"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            android:layout_width="263dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:textColorHint="@color/textColorHint"
+            app:boxStrokeColor="@color/colorInputLayout"
+            app:cursorColor="@color/colorInputLayout"
+            app:hintTextColor="@color/colorInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/hint_surname"
+                android:paddingTop="11dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/textColor"
+                android:textColorHighlight="@color/textColorHightlight"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            android:layout_width="263dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="22dp"
+            android:textColorHint="@color/textColorHint"
+            app:boxStrokeColor="@color/colorInputLayout"
+            app:cursorColor="@color/colorInputLayout"
+            app:hintTextColor="@color/colorInputLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/hint_data"
+                android:inputType="datetime|date"
+                android:paddingTop="11dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/textColor"
+                android:textColorHighlight="@color/textColorHightlight"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="33dp"
+            android:backgroundTint="@color/colorButton"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/btn_reg_Register"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_nomer_bilet" />
+
+        <TextView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/btn_back"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_reg"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="411dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_sibsiu" />
+
+        <EditText
+            android:id="@+id/ed_nomer_bilet"
+            android:layout_width="263dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="@string/hint_simvl"
+            android:inputType="number"
+            android:textColor="@color/textColor"
+            android:textColorHighlight="@color/textColorHightlight"
+            android:textColorHint="@color/textColorHint"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomber_bilet_title" />
+
+        <TextView
+            android:id="@+id/nomber_bilet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/number_billet_title"
+            android:textColor="@color/textColor"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="@+id/ed_nomer_bilet"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
+
+        <TextView
+            android:id="@+id/dan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/dan_title"
+            android:textColor="@color/textColor"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

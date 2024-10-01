@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LibrarySibSiu" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#A3D3E6</item>
+        <item name="colorSecondary">#A3D3E6</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorBackgroundBottonNav</item>
+    </style>
+
+    <style name="Theme.YourApp.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <!-- установка цвета индикатора активного элемента -->
+        <item name="itemActiveIndicatorStyle">@color/active_item_color</item>
+    </style>
+
+    <style name="RoundedAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_rounded_dialog</item>
+        <!-- Цвет текста кнопок -->
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertDialogButtonStyle</item>
+    </style>
+
+    <style name="AlertDialogButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="FixedTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="colorControlNormal">@color/textColor</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">7dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="CustomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:background">@drawable/ratingbar_background</item>
+        <item name="android:minHeight">34dp</item>
+        <item name="android:maxHeight">50dp</item>
+    </style>
+
+    <style name="CalendarViewCustomTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="colorAccent">@color/armorColor</item>
+    </style>
+</resources>

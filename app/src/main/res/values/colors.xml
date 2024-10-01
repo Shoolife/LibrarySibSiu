@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="active_item_color">#C4C4C4</color>
+
+    <color name="colorIconActive">#000000</color> <!-- Чёрный для активного состояния -->
+    <color name="colorIconInactive">#41555C</color> <!-- Серый для неактивного состояния -->
+
+    <color name="colorBackground">#FFFFFF</color> <!-- Цвет фонов активити -->
+    <color name="colorBackgroundBottonNav">#A3D3E6</color> <!-- Цвет фона нижнего меню  -->
+
+    <color name="colorButton">#03A9F4</color> <!-- Цвет фона кнопок  -->
+
+    <color name="colorInputLayout">#03A9F4</color> <!-- Цвет фона кнопок  -->
+
+    <color name="textColor">#000000</color> <!-- Цвет фона нижнего меню  -->
+    <color name="textColorHightlight">#3203A9F4</color>
+    <color name="textColorHint">#A7A6A8</color>
+
+    <color name="colorBackgroundRipple">#89C2DA</color>
+
+    <color name="colorBackgroundLine">#B6B6B6</color>
+
+    <color name="ripple_effect">#1f000000</color>
+
+    <color name="borderColor">#C4C4C4</color>
+
+    <color name="armorColor">#47A7FF</color>
+    <color name="disabledColor">#C4C4C4</color>
+
+    <color name="readColor">#6FE652</color>
+    <color name="downloadColor">#F05656</color>
+
+    <color name="gray">#787878</color>
+
+
+
+
+
+</resources>

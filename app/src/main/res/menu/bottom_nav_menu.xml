@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_services"
+        android:icon="@drawable/services"
+        android:title="@string/title_services" />
+
+    <item
+        android:id="@+id/navigation_billet"
+        android:icon="@drawable/chit_billet"
+        android:title="@string/title_chit_billet" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/account"
+        android:title="@string/title_account" />
+
+</menu>

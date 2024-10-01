@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">LibrarySibSiu</string>
+
+    <string name="btn_reg_Register">Зарегистрироваться</string>
+
+    <string name="hint_name">Имя</string>
+    <string name="hint_second_name">Фамилия</string>
+    <string name="hint_surname">Отчество</string>
+    <string name="hint_data">дд-мм-гггг</string>
+
+    <string name="btn_reg_Login"><u>Регистрация</u></string>
+    <string name="btn_back"><u>Назад</u></string>
+
+    <string name="hint_simvl"><font size="35"><b>****************</b></font></string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_services">Сервисы</string>
+    <string name="title_chit_billet">Читательский билет</string>
+    <string name="title_account">Аккаунт</string>
+    <string name="btn_login">Вход</string>
+    <string name="number_billet_title">Введите номер билета</string>
+    <string name="password_title">Пароль</string>
+    <string name="dan_title">Введите данные</string>
+
+    <string name="user_full_name_format">%1$s \n(Студент СибГИУ)</string>
+
+    <string name="textOff">QR</string>
+    <string name="textOn">Barcode</string>
+
+    <string name="bookmarks">Избранное</string>
+    <string name="go_to_bookmarks">Перейти к избранным</string>
+    <string name="exit">Выйти</string>
+    <string name="book_status">Статус книг</string>
+    <string name="go_to_status">Перейти к статусу</string>
+    <string name="room_history">История бронирования помещений</string>
+    <string name="go_to_history">Перейти к истории</string>
+
+    <string name="catalog">Каталог</string>
+    <string name="rooms">Комнаты</string>
+    <string name="news">Новости</string>
+    <string name="video">Видео</string>
+
+    <string name="settings">Настройки профиля</string>
+    <string name="logoutAndDeletion">Выход и удаление</string>
+    <string name="logOutProfileDevice">Выйти из профиля на этом устройстве</string>
+    <string name="signOutAllDevices">Выйти на всех устройствах, кроме этого</string>
+    <string name="deleteProfile">Удалить профиль</string>
+
+    <string name="version_format">Версия %1$s (%2$s)</string>
+
+    <string name="search">Поиск</string>
+
+    <string name="author_prefix">Авторы:</string>
+    <string name="title_prefix">Название:</string>
+    <string name="publish_year_prefix">Год выпуска:</string>
+    <string name="isbn_prefix">Шифр:</string>
+    <string name="summary_prefix">Описание:</string>
+
+    <string name="sort_by_alphabet">Сортировка названий книг</string>
+    <string name="beginning_of_the_alphabet">С начала алфавита</string>
+    <string name="end_of_the_alphabet">С конца алфавита</string>
+    <string name="period_writing_book">Период написания книги</string>
+    <string name="from_the_date">с даты</string>
+    <string name="by_date">по дату</string>
+
+    <string name="armor">Забронировать</string>
+    <string name="read">Читать</string>
+    <string name="download">Скачать</string>
+    <string name="about_the_book">О книге</string>
+    <string name="book_title_with_rating">%1$s - Рейтинг: %2$s</string>
+
+    <string name="сategories">Категории</string>
+    <string name="popular">Популярное</string>
+    <string name="latest_videos">Последние видео</string>
+    <string name="all">Все</string>
+
+    <string name="room_reservation">Бронирование помещений</string>
+
+
+</resources>

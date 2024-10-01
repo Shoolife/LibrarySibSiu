@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "449305870230",
+    "firebase_url": "https://librarysibsiudatabase-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "librarysibsiudatabase",
+    "storage_bucket": "librarysibsiudatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449305870230:android:c9d90b51f45905f4a0a7b7",
+        "android_client_info": {
+          "package_name": "com.example.libsibsiu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeBSXBrhxAG5mFN1u-sFe0p8xZ3QZUjZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

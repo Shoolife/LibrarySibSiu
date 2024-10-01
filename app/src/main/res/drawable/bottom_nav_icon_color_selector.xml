@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/colorIconActive" android:state_checked="true"/> <!-- Активный цвет -->
+    <item android:color="@color/colorIconInactive"/> <!-- Неактивный цвет -->
+</selector>
